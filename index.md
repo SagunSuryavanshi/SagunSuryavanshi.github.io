@@ -3,7 +3,7 @@ title: Hi, I'm Sagun
 layout: default
 ---
 
-<img src="/Sagun.HEIC" alt="Sagun" style="float:right; max-width:220px; margin:0 0 1.5rem 1.5rem; border-radius:50%;">
+<img src="/Sagun.jpg" alt="Sagun" style="float:right; max-width:220px; margin:0 0 1.5rem 1.5rem; border-radius:50%;">
 
 # Hi, I’m Sagun 👋
 
