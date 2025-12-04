@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sagun</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      padding: 40px 16px 80px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #ffffff;
+      color: #111111;
+    }
+
+    .page {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* hero: photo + intro side by side like Andy */
+    .hero {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+
+    .hero img {
+      width: 200px;
+      max-width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+
+    .hero h1 {
+      margin: 0 0 10px;
+      font-size: 28px;
+    }
+
+    .hero p {
+      margin: 0 0 10px;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #0056d6;
+      text-decoration: underline;
+    }
+
+    hr {
+      margin: 32px 0;
+      border: none;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    .section-title {
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .work-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    .work-list li {
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <section class="hero">
+      <!-- 🔁 change src if your file has a different name or folder -->
+      <img src="sagun.jpg" alt="Sagun" />
+
+      <div>
+        <h1>Hi, I'm Sagun 👋</h1>
+
+        <p>
+          I’m a consumer PM with a TPM backbone, obsessed with building products that combine
+          <strong>deep user empathy</strong> with <strong>scalable, data-informed decisions</strong>.
+        </p>
+
+        <p>
+          It’s all about people for me: empowering teams, amplifying their ideas, and listening closely
+          to users and the problems they trust us to solve.
+        </p>
+
+        <p>
+          Right now, I’m a TPM at <strong>Experian</strong>, coordinating 40+ teams across fraud, data,
+          and mainframe-to-cloud migrations—keeping timelines on track, fixing handoffs, and making
+          progress easy to see.
+        </p>
+
+        <p>
+          Previously, I’ve worked across marketing, product, and engineering at Venture Docx, Skyhive,
+          Vimana, Next Tech, and Guvi.
+        </p>
+
+        <p>
+          You can usually find me on
+          <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          or by email at
+          <a href="mailto:you@example.com">you@example.com</a>.
+        </p>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="section-title">Cool past work</div>
+      <ul class="work-list">
+        <li>
+          <strong>TPM – <a href="https://example.com" target="_blank">Experian</a></strong> –
+          Coordinating 40+ teams across fraud, data, and mainframe-to-cloud migrations.
+        </li>
+        <li>
+          <strong>Marketing Manager – <a href="https://example.com" target="_blank">Venture Docx</a></strong> –
+          Ran day-to-day marketing across LinkedIn, the website, WhatsApp, and events.
+        </li>
+        <li>
+          <strong>Product Management – <a href="https://example.com" target="_blank">Skyhive</a></strong> –
+          Talked to users, wrote PRDs, and improved onboarding flows for an AI workforce product.
+        </li>
+        <li>
+          <strong>APM – <a href="https://example.com" target="_blank">Vimana</a></strong> –
+          Turned customer feedback and support tickets into a clear feature roadmap and designed predictive maintenance features.
+        </li>
+        <li>
+          <strong>Head – <a href="https://example.com" target="_blank">Next Tech</a></strong> –
+          Led a 250+ student AI lab, set priorities, ran weekly cadences, and secured funding.
+        </li>
+        <li>
+          <strong>SWE Intern – <a href="https://example.com" target="_blank">Guvi</a></strong> –
+          Helped build an adaptive testing platform that adjusts questions to each learner.
+        </li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
